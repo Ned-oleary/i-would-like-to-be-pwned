@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "My Dropdown UI",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "frown.png"
+      }
+    },
+    "web_accessible_resources": [
+    {
+      "resources": ["words.txt"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["copy.svg"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
+  
